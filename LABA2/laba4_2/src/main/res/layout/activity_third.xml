@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText_start_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Начальная улица"/>
+
+    <EditText
+        android:id="@+id/editText_start_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_start_street"
+        android:layout_marginTop="16dp"
+        android:hint="Дом"/>
+
+    <EditText
+        android:id="@+id/editText_start_floor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_start_house"
+        android:layout_marginTop="16dp"
+        android:hint="Этаж"/>
+
+    <EditText
+        android:id="@+id/editText_end_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_start_floor"
+        android:layout_marginTop="16dp"
+        android:hint="Конечная улица"/>
+
+    <EditText
+        android:id="@+id/editText_end_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_end_street"
+        android:layout_marginTop="16dp"
+        android:hint="Дом"/>
+
+    <EditText
+        android:id="@+id/editText_end_floor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_end_house"
+        android:layout_marginTop="16dp"
+        android:hint="Этаж"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="backToSecond"
+        android:layout_below="@+id/editText_end_floor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="ОК"/>
+
+</RelativeLayout>

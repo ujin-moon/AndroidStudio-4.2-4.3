@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TAXI</string>
+    <string name="register">Регистрация</string>
+    <string name="button_text">REGISTRATION</string>
+    <string name="textName">Name</string>
+    <string name="textSurname">Surname</string>
+    <string name="button_path">SET PATH</string>
+    <string name="title">Taxi</string>
+    <string name="phone">+375(**)***-**-**</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+</resources>
